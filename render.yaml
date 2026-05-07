@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: algorithmx-bot
+    env: python
+    region: frankfurt
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    plan: free
