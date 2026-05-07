@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: algorithmx-bot
+    name: algorithmx-botnew
     env: python
     region: frankfurt
     buildCommand: pip install -r requirements.txt
